@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "rootDir": "./src",
     "lib": ["ESNext"],
     "module": "esnext",
     "target": "esnext",
@@ -20,6 +19,6 @@
       "bun-types" // add Bun global
     ],
   },
-  "include": ["src/**/*.ts", "test/**/*.ts"],
+  "include": ["src/**/*.ts", "scripts/**/*.ts", "test/**/*.ts"],
   "exclude": ["node_modules", "*.cjs", "build", "logs"]
 }
